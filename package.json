@@ -13,6 +13,11 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "setupTestFrameworkScriptFile": "./jest-setup.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/commanderking/react-speech-synthesis.git"
@@ -40,6 +45,7 @@
     "eslint-plugin-react": "^7.3.0",
     "eslint-watch": "^3.1.2",
     "jest": "^21.0.2",
+    "lodash": "^4.17.4",
     "polished": "^1.7.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
