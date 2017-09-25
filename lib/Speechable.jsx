@@ -62,7 +62,7 @@ class Speechable extends React.Component {
     render() {
         return (
             <span onClick={this.playSpeech}>
-                <b>{this.props.children}</b>
+                {this.props.children}
             </span>
         );
     }
