@@ -23,3 +23,26 @@
   font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial
 }
+
+.voicesTable {
+  text-align: center;
+}
+
+.voicesTable td:first-child span {
+  width: 100%;
+  height: 100%;
+  background-color: #77dd77;
+  cursor: pointer;
+  display: block;
+  line-height: 50px;
+}
+
+.voicesTable td:first-child:hover {
+  background-color: #77dd55;
+  cursor: pointer;
+}
+
+.voicesTable th, .voicesTable td {
+  padding: 4px;
+}
+
