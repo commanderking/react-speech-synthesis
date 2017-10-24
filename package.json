@@ -11,7 +11,13 @@
     "test": "jest",
     "prepublish": "npm run build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "storybook-deployer": {
+    "gitUsername": "Jeffrey King",
+    "gitEmail": "custom@email.com",
+    "commitMessage": "Deploy Storybook to Github Pages"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
@@ -32,6 +38,7 @@
     "@storybook/addon-actions": "^3.2.6",
     "@storybook/addon-links": "^3.2.6",
     "@storybook/react": "^3.2.8",
+    "@storybook/storybook-deployer": "^2.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
